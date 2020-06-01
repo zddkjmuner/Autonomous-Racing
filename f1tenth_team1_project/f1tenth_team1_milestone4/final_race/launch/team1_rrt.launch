@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+ 
+<include file="$(find f1tenth_gym_ros)/launch/gym_bridge_host.launch"/>
+<node pkg="final_race" name="rrt_node" type="rrt_node" output="screen">
+    <rosparam command="load" file="$(find final_race)/rrt_params.yaml"/>
+  </node>
+
+
+  </launch>

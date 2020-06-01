@@ -1,0 +1,35 @@
+# Topics that RRT listens to
+# TODO: add your own
+# TODO: change this to the pose topic published particle filter
+pose_topic: "/odom"
+#/gt_pose
+scan_topic: "/scan"
+
+# Topics that RRT publishes to
+drive_topic: "/drive"
+
+
+# TODO: add your own
+# visualization
+
+# TODO: add Parameters for RRT
+max_iteration : 50
+
+#0.5m
+max_expansion_dist : 8
+#0.25m
+threshold : 8
+near_threshold_ : 8
+
+map_sizex_ : 602
+map_sizey_ : 431
+map_resolution_ : 0.05
+map_origin_x_ : -7.801
+map_origin_y_ : -16.388
+
+occupied_thresh: 0.65
+free_thresh: 0.196
+
+LOOK_AHEAD: 1.5
+
+VELOCITY: 1.5

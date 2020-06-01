@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+  
+<include file="$(find f1tenth_gym_ros)/launch/gym_bridge_host.launch"/>
+
+<node pkg="f1tenth_team1_milestone1" type="team1_pure_pursuit" name="team1_pure_pursuit" output="screen"/>
+
+
+  </launch>
