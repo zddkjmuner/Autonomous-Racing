@@ -3,7 +3,7 @@ This's a series of projects for UPenn ESE 615 (Autonomous Racing). You can downl
 
 We implemented minimum curvature, CMA-ES and potential field method.
 
-![](pfm_hard_fail3.gif)
+![](pfm_hard_fail3.gif =200)
 
 ![](pfm_speed.gif)
 
